@@ -45,6 +45,7 @@ header > p {
 
 nav {
     margin-left: 40px;
+    padding-top: 20px;
 }
 
 a {
@@ -52,7 +53,7 @@ a {
    text-decoration: none;
    text-transform: capitalize;
    color: black;
-   margin: 5px;
+   
    
 
    
@@ -62,6 +63,7 @@ a {
 nav > p > a:hover {
     text-decoration: underline;
     color: blue;
+   
     
 }
 
@@ -77,5 +79,12 @@ iframe {
     margin: auto;
     border: 1px solid black;
     background-color: white;
-    
+    padding: 40px;
+    margin: 40px;
 }
+
+#tela {
+    background-color: aquamarine;
+    text-align: center;
+ }
+    
