@@ -78,8 +78,8 @@ nav > p > a:hover {
 
 
 iframe {
-    width: 350px;
-    height: 320px;
+    width: 50vw;
+    height: 350px;
     display: flex;
     margin: auto;
     border: 1px solid black;
@@ -137,7 +137,7 @@ iframe {
  }
 
  footer a:hover {
-    background-color: rgb(11, 186, 218);
+    background-color: rgb(10, 10, 112);
  }
 
 
