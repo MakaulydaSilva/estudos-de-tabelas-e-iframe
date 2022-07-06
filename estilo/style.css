@@ -66,10 +66,6 @@ a {
    text-transform: capitalize;
    color: black;
    
-   
-
-   
-   
 }
 
 nav > p > a:hover {
@@ -82,8 +78,8 @@ nav > p > a:hover {
 
 
 iframe {
-    width: 50vw;
-    height: 350px;
+    width: 570px;
+    height: 320px;
     display: flex;
     margin: auto;
     border: 1px solid black;
@@ -95,6 +91,53 @@ iframe {
 #tela {
     background-color: aquamarine;
     text-align: center;
+ }
+
+ article {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    margin-top: 20px;
+ }
+
+ article > h2 {
+    text-align: center;
+    font-family: var(--fontetitulo);
+   
+    padding: 10px;
+    background-image: linear-gradient(to right, aqua
+    , rgb(96, 96, 190));
+    
+ }
+
+ article p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+    padding: 20px;
+ }
+
+ footer {
+    background-color: rgb(37, 37, 37);
+    padding: 10px;
+    text-align: center;
+    
+   
+ }
+
+ footer p {
+    color: white;
+ }
+
+ footer a {
+    color: white;
+ }
+
+ footer a:hover {
+    background-color: rgb(11, 186, 218);
  }
 
 
