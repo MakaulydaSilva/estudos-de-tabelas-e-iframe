@@ -13,15 +13,21 @@
     
 }
 
+body {
+    background-color: rgb(229, 229, 229);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
    
-    margin: 10px;
-    padding: 40px;
+   
+  
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
     text-align: center;
     background-color: azure;
-    border: 1px solid black;
-    width: 100%;
-    min-height: 150px;
+  
    
 }
 
@@ -44,6 +50,9 @@ header > p {
 
     font-family: var(--fontetitulo);
     font-style: italic;
+    max-width: 600px;
+   
+    
 }
 
 nav {
@@ -70,10 +79,7 @@ nav > p > a:hover {
     
 }
 
-body {
-    background-color: rgb(229, 229, 229);
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 
 iframe {
     width: 50vw;
